@@ -24,7 +24,11 @@ set whichwrap=b,s,h,l,<,>,[,],~ "行頭、行末で行のカーソル移動を可能にする
 
 set lines=50      "Windowの縦幅を指定
 set columns=120   "Whindowの横幅を指定
-colorscheme tcsoft "visualstudio
+
+let g:lucius_style = "light"
+let g:lucius_contrast = "normal"
+let g:lucius_contrast_bg = "normal"
+colorscheme lucius "tcsoft visualstudio
 
 
 
