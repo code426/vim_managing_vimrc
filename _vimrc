@@ -5,9 +5,6 @@ set encoding=utf-8
 set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 set fileformats=unix,dos,mac
 
-"set backupdir=C:/Users/U103455947/Documents/fujii-work/社内/vim用/vimbackup/
-"set undodir=C:/Users/U103455947/Documents/fujii-work/社内/vim用/vimbackup/
-
 
 "utf-8指定した事でメニューが文字化けするので、日本語になおす
 source $VIMRUNTIME/delmenu.vim
@@ -29,6 +26,4 @@ let g:lucius_style = "light"
 let g:lucius_contrast = "normal"
 let g:lucius_contrast_bg = "normal"
 colorscheme lucius "tcsoft visualstudio
-
-
 
